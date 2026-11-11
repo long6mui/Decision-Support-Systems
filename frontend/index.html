@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HUST CareerDSS — Hệ Trợ Giúp Quyết Định Tìm Việc Làm Cho Sinh Viên Tốt Nghiệp</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <div id="dss-app-root">
+    <div style="padding: 48px; text-align: center; font-family: sans-serif; color: #334155;">
+      Đang khởi tạo Hệ Trợ Giúp Quyết Định (AHP - TOPSIS)...
+    </div>
+  </div>
+
+  <!-- Dữ liệu Snapshot xuất trực tiếp từ SQLite (dss_job_matching.db) -->
+  <script src="src/data/db_snapshot.js"></script>
+  <!-- Bộ giải Mô hình Toán học AHP + TOPSIS + Skill Matching + What-If -->
+  <script src="src/dss_client_engine.js"></script>
+  <!-- Giao diện Trợ giúp Quyết định Tương tác -->
+  <script src="src/app.js"></script>
+</body>
+</html>
+

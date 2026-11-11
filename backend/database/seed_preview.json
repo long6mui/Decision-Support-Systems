@@ -1,0 +1,11 @@
+{
+  "database_path": "C:\\Users\\admin\\Desktop\\Tài liệu học tập hust\\Hệ trợ giúp quyết định\\backend\\database\\dss_job_matching.db",
+  "majors_count": 8,
+  "skills_count": 65,
+  "companies_count": 25,
+  "criteria_count": 6,
+  "jobs_count": 153,
+  "job_skills_relations": 852,
+  "student_profiles_count": 10,
+  "student_skills_relations": 87
+}

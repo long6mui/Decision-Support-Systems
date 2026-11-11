@@ -1,0 +1,9 @@
+{
+  "name": "hust-career-dss-frontend",
+  "version": "1.0.0",
+  "description": "Giao diện Hệ trợ giúp quyết định tìm việc làm cho sinh viên tốt nghiệp (AHP - TOPSIS)",
+  "scripts": {
+    "start": "python ../backend/main.py"
+  }
+}
+
